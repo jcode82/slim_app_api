@@ -11,4 +11,8 @@ $app->get('/hello/{name}', function (Request $request, Response $response) {
 
     return $response;
 });
+
+//customer routes 
+require '../src/routes/customer.php';
+
 $app->run();
